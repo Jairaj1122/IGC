@@ -157,7 +157,7 @@ nav .bar{
     font-size: 3.2vw;
     width: 20vw;
     font-family: 'Noto Sans', sans-serif;
-    top: 11vw;
+    top: 14vw;
     left: 15vw;
 } 
 .main-page-image{
@@ -187,8 +187,8 @@ footer{
     display: flex;
     position: absolute;
     bottom: 0vh;
-    width: 95vw;
-    left: 5vw;
+    width: 100vw;
+    left: 0vw;
     height: 10vw;
     color: #ffffff;
     font-family: 'Figtree', sans-serif;
