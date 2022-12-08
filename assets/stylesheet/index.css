@@ -88,13 +88,20 @@ nav .bar{
     z-index: 1;
 }
 .flag{
-    position: absolute;
+    position: relative;
     height: 18vw;
     width: 32vw;
-    left: 68vw;
-    top: 5vw;
+    left: 22vw;
+    top: -26vw;
     z-index: -1;
     transform: rotate(24deg);
+}
+.main-img{
+    position: absolute;
+    left: 46vw;
+    top: 15vh;
+    height: 34vw;
+    width: 48vw;
 }
 .sidebar{
     color: #b3aca2;
@@ -158,9 +165,9 @@ nav .bar{
     left: 15vw;
 }
 .main-page-image{
-    position: absolute;
-    left: 46vw;
-    top: 15vh;
+    position: relative;
+    left: 0vw;
+    top: 6vh;
     height: 28vw;
     width: 48vw;
 }
