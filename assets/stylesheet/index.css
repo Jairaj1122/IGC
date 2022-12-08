@@ -167,7 +167,7 @@ nav .bar{
     font-size: 3.2vw;
     width: 20vw;
     font-family: 'Noto Sans', sans-serif;
-    top: 19.4vw;
+    top: 14vw;
     left: 15vw;
 } 
 .body-2{
@@ -206,8 +206,8 @@ footer{
     display: flex;
     position: absolute;
     bottom: 0vh;
-    width: 100vw;
-    left: 0vw;
+    width: 95vw;
+    left: 5vw;
     height: 10vw;
     color: #ffffff;
     font-family: 'Figtree', sans-serif;
@@ -383,4 +383,4 @@ footer .elem{
 /* .arrows img{
     width: 1vw;
     height: 1vw;
-}  */
+}
