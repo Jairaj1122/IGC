@@ -128,7 +128,7 @@ nav .bar{
     left: -6vw;
     width: 19vw;
     height: 2vw;
-    top: 20vw;
+    top: 23vw;
     font-size: 0.5vw;
     font-family: 'Figtree', sans-serif;
 }  
@@ -151,15 +151,34 @@ nav .bar{
     color: rgb(236, 229, 229);
     font-family: 'Figtree', sans-serif;
 }
-.body h3{
+.body-0{
     position: absolute;
     display: flex;
     font-size: 3.2vw;
     width: 20vw;
     font-family: 'Noto Sans', sans-serif;
-    top: 11vw;
+    top: 15.4vw;
+    left: 15vw;
+}
+.body-1{
+    color: #ff7109;
+    position: absolute;
+    display: flex;
+    font-size: 3.2vw;
+    width: 20vw;
+    font-family: 'Noto Sans', sans-serif;
+    top: 19.4vw;
     left: 15vw;
 } 
+.body-2{
+    position: absolute;
+    display: flex;
+    font-size: 3.2vw;
+    width: 20vw;
+    font-family: 'Noto Sans', sans-serif;
+    top: 23vw;
+    left: 15vw;
+}
 .main-page-image{
     position: absolute;
     left: 46vw;
@@ -187,8 +206,8 @@ footer{
     display: flex;
     position: absolute;
     bottom: 0vh;
-    width: 95vw;
-    left: 5vw;
+    width: 100vw;
+    left: 0vw;
     height: 10vw;
     color: #ffffff;
     font-family: 'Figtree', sans-serif;
@@ -273,41 +292,84 @@ footer .elem{
     font-size: 0.8vw;
     color: #b3aca2;
 }
-/* .effi-cycle{
-    background-image: linear-gradient(2deg, #15171D, transparent);
-    width: 65vw;
-    height: 100%;
-    position: relative;
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    font-family: 'Figtree', sans-serif
 }
-.effi-cycle .left{
-    position: relative;
+.wrapper .card{
+    background: linear-gradient(2deg, #15171D, transparent);;
+    width: 43vw;
+    opacity: 0;
+    pointer-events: none;
+    animation: animate 15s linear infinite;
+    animation-delay: calc(3s * var(--delay));
+    position: absolute;
+    font-size: 1.2vw;
+    left: 57vw;
+    top: 0;
+    height: 10vw;
+}
+.wrapper:hover .card{
+    animation-play-state: paused;
+}
+.wrapper .card:last-child{
+    animation-delay: calc(3s * var(--delay));
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: translateY(100%) scale(0.5);
+    }
+    5%, 20%{
+        opacity: 0.4;
+        transform: translateY(100%) scale(0.7);
+    }
+    25%, 40%{
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0%) scale(1);
+    }
+    45%, 60%{
+        opacity: 0.4;
+        transform: translateY(0%) scale(0.7);
+    }
+    65%, 100%{
+        opacity: 0;
+        transform: translateY(-10%) scale(1);
+    }
+}
+.wrapper .card .img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: -10;
     top: 2vw;
-    left: 12vw;
-    font-size: 1.2vw;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
 }
-.effi-cycle .p-left{
-    position: relative;
-    width: 20vw;
-    top: 3.3vw;
-    left: 2vw;
-    font-size: 0.8vw;
-    color: #b3aca2;
+.card .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
-.effi-cycle h1{
-    position: relative;
-    top: -0.5vw;
-    left: 24vw;
-    font-size: 1.2vw;
-} */
-/* .effi-cycle-img img{
-    width: 25%;
-    height: 25%;
-
-}  */
-/* .slide{
-    width: 20%;
-    transition: 2s;
-} */
+.card .detials{
+    margin-left: 80px;
+}
+.detials span{
+    top: 10vw;
+    font-weight: 600;
+    font-size: 18px;
+}
+.card a{
+    text-decoration: none;
+    padding: 7px 18px;
+    border-radius: 25px;
+    color: #fff;
+    background: linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%);
+}
 .arrows{
     display: flex;
     flex-direction: column;
@@ -318,7 +380,7 @@ footer .elem{
     right: 2vw;
     bottom: -1vw;
 }
-.arrows img{
+/* .arrows img{
     width: 1vw;
     height: 1vw;
-}
+}  */
