@@ -10,8 +10,7 @@ body{
     background-size: contain; 
     overflow-x: hidden;
     width: 100vw;
-    height: 100vh;
-    overflow-y: hidden; 
+    height: 167vh;
 }
 .banner{
     position: absolute;
@@ -34,7 +33,7 @@ body{
     position: absolute;
     top: 1.7vw;
     height: 0.3vw;
-    width: 1.2vw;
+    width: 1.1vw;
     background-color: #ffffff;
     z-index: 2;
     left: 1.5vw;
@@ -51,7 +50,7 @@ nav{
     font-size: 0.7vw;
     font-family: 'Figtree', sans-serif;
     font-weight: 300;
-    width: 53vw;
+    width: 54vw;
 }
 nav a{
     text-decoration: none;
@@ -59,6 +58,7 @@ nav a{
 }
 .nav-bar:hover{
     color: #ff7109;
+    cursor: pointer;
 }
 nav .bar{
     width: 10vw;
@@ -67,6 +67,35 @@ nav .bar{
     position: relative;
     top: 0.6vw;
 } 
+#active{
+    color: #ff7109;
+}
+.register-btn{
+    position: absolute;
+    top: 2.6vw;
+    right: 5vw;
+    color: #ffffff;
+    height: 2.7vw;
+    width: 8vw;
+    background-color: #ff7109;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+    z-index: 1;
+}
+.flag{
+    position: absolute;
+    height: 18vw;
+    width: 32vw;
+    left: 68vw;
+    top: 5vw;
+    z-index: -1;
+    transform: rotate(24deg);
+}
 .sidebar{
     color: #b3aca2;
     display: flex;
@@ -77,8 +106,8 @@ nav .bar{
     left: -6vw;
     width: 19vw;
     height: 2vw;
-    top: 23vw;
-    font-size: 0.5vw;
+    top: 52.8vw;
+    font-size: 1vw;
     font-family: 'Figtree', sans-serif;
 }  
 .sidebar a{
@@ -137,25 +166,27 @@ nav .bar{
 }
 .nav-2{
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1vw;
-    top: 22vw;
+    font-size: 2vw;
+    top: 24vw;
     transform: rotateZ(.25turn);
-    width: 22vw;
+    width: 30vw;
     column-gap: 1.8vw;
-    left: 85.5vw;
+    left: 80.5vw;
 } 
 .nav-2 h1{
     transform: rotateZ(-0.25turn);
-}
+} 
 .nav-2 .bar{
-    top: 0.8vw;
+    top: 1.7vw;
     width: 7vw;
+    height: 0.5vw;
 }
 footer{
     display: flex;
     position: absolute;
-    bottom: 0vh;
+    top: 144vh;
     width: 100vw;
+    left: 0vw;
     height: 10vw;
     color: #ffffff;
     font-family: 'Figtree', sans-serif;
@@ -239,84 +270,6 @@ footer .elem{
     left: 24vw;
     font-size: 0.8vw;
     color: #b3aca2;
-}
-.wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60vh;
-    font-family: 'Figtree', sans-serif
-}
-.wrapper .card{
-    background: linear-gradient(2deg, #15171D, transparent);;
-    width: 43vw;
-    opacity: 0;
-    pointer-events: none;
-    animation: animate 15s linear infinite;
-    animation-delay: calc(3s * var(--delay));
-    position: absolute;
-    font-size: 1.2vw;
-    left: 57vw;
-    top: 0;
-    height: 10vw;
-}
-.wrapper:hover .card{
-    animation-play-state: paused;
-}
-.wrapper .card:last-child{
-    animation-delay: calc(3s * var(--delay));
-}
-@keyframes animate {
-    0%{
-        opacity: 0;
-        transform: translateY(100%) scale(0.5);
-    }
-    5%, 20%{
-        opacity: 0.4;
-        transform: translateY(100%) scale(0.7);
-    }
-    25%, 40%{
-        opacity: 1;
-        pointer-events: auto;
-        transform: translateY(0%) scale(1);
-    }
-    45%, 60%{
-        opacity: 0.4;
-        transform: translateY(0%) scale(0.7);
-    }
-    65%, 100%{
-        opacity: 0;
-        transform: translateY(-10%) scale(1);
-    }
-}
-.wrapper .card .img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    left: -10;
-    top: 2vw;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
-}
-.card .img img{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.card .detials{
-    margin-left: 80px;
-}
-.detials span{
-    top: 10vw;
-    font-weight: 600;
-    font-size: 18px;
-}
-.card a{
-    text-decoration: none;
-    padding: 7px 18px;
-    border-radius: 25px;
-    color: #fff;
-    background: linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%);
 }
 .arrows{
     display: flex;
