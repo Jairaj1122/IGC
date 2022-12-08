@@ -106,7 +106,7 @@ nav .bar{
     font-size: 3.2vw;
     width: 20vw;
     font-family: 'Noto Sans', sans-serif;
-    top: 17vw;
+    top: 15vw;
     left: 15vw;
 }
 .body-1{
@@ -116,14 +116,14 @@ nav .bar{
     font-size: 3.2vw;
     width: 20vw;
     font-family: 'Noto Sans', sans-serif;
-    top: 20vw;
+    top: 18vw;
     left: 15vw;
 } 
 .body-2{
     position: absolute;
     display: flex;
     font-size: 3.2vw;
-    width: 20vw;
+    width: 21vw;
     font-family: 'Noto Sans', sans-serif;
     top: 23vw;
     left: 15vw;
