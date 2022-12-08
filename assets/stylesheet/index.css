@@ -45,7 +45,7 @@ nav{
     flex-wrap: nowrap;
     column-gap: 5vw;
     color: #b3aca2;
-    position: absolute;
+    position: relative;
     top: 2.8vw;
     left: 16vw;
     font-size: 0.7vw;
@@ -66,57 +66,6 @@ nav .bar{
     background-color: #b3aca2;
     position: relative;
     top: 0.6vw;
-} 
-.cart-icon{
-    position: absolute;
-    height: 3vw;
-    width: 3vw;
-    top: 1.95vw;
-    right: 10vw;
-}
-.cart-icon img{
-    height: 1.5vw;
-    width: 1.5vw;
-    position: relative;
-    top: 0.5vw;
-    left: 0.5vw;
-} 
-.not-dot{
-    height: 0.7vw;
-    width: 0.7vw;
-    border-radius: 50%;
-    position: relative;
-    top: -1.35vw;
-    right: -1.55vw;
-    background-color: #ff7109;
-}
-.menu-icon{
-    display: flex;
-    flex-direction: column;
-    height: 3vw;
-    width: 2.5vw;
-    position: absolute;
-    top: 1.95vw;
-    right: 6vw;
-    row-gap: 0.3vw;
-    justify-content: center;
-    align-items: flex-end;
-}
-.menu-icon .bar{
-    width: 1.5vw;
-    height: 0.2vw;
-    position: relative;
-    background-color: black;
-    
-}
-.menu-icon #b1{
-    width: 70%;
-}
-.menu-icon #b2{
-    width: 90%;
-}
-.menu-icon #b3{
-    width: 50%;
 } 
 .sidebar{
     color: #b3aca2;
@@ -157,7 +106,7 @@ nav .bar{
     font-size: 3.2vw;
     width: 20vw;
     font-family: 'Noto Sans', sans-serif;
-    top: 15.4vw;
+    top: 17vw;
     left: 15vw;
 }
 .body-1{
@@ -167,7 +116,7 @@ nav .bar{
     font-size: 3.2vw;
     width: 20vw;
     font-family: 'Noto Sans', sans-serif;
-    top: 14vw;
+    top: 20vw;
     left: 15vw;
 } 
 .body-2{
@@ -206,8 +155,7 @@ footer{
     display: flex;
     position: absolute;
     bottom: 0vh;
-    width: 95vw;
-    left: 5vw;
+    width: 100vw;
     height: 10vw;
     color: #ffffff;
     font-family: 'Figtree', sans-serif;
