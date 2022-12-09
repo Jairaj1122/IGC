@@ -107,6 +107,9 @@ nav .bar{
 .sidebar a:hover{
     color: #ff7109;
 }
+.rulebook{
+    color: #ff7109;
+}
 .nav-2{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2vw;

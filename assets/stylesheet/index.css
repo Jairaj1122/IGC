@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Noto+Sans:wght@700;900&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Noto+Sans:wght@700;900&family=Roboto:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +27,7 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
     font-size: 1vw;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     z-index: 1;
 }
 .banner .bar{
@@ -37,7 +38,7 @@ body{
     background-color: #ffffff;
     z-index: 2;
     left: 1.5vw;
-} 
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -139,30 +140,30 @@ nav .bar{
 .body-0{
     position: absolute;
     display: flex;
-    font-size: 3.2vw;
+    font-size: 4.2vw;
     width: 20vw;
-    font-family: 'Noto Sans', sans-serif;
-    top: 13vw;
-    left: 15vw;
+    font-family: 'Bebas Neue ', sans-serif;
+    top: 16vw;
+    left: 11vw;
 }
 .body-1{
     color: #ff7109;
     position: absolute;
     display: flex;
-    font-size: 3.2vw;
+    font-size: 5.2vw;
     width: 16vw;
-    font-family: 'Noto Sans', sans-serif;
-    top: 16vw;
-    left: 15vw;
+    font-family: 'Bebas Neue', cursive;
+    top: 20vw;
+    left: 11vw;
 } 
 .body-2{
     position: absolute;
     display: flex;
-    font-size: 3.2vw;
+    font-size: 4.2vw;
     width: 19vw;
     font-family: 'Noto Sans', sans-serif;
-    top: 19vw;
-    left: 15vw;
+    top: 25vw;
+    left: 11vw;
 }
 .main-page-image{
     position: relative;
